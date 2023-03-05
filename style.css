@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+    padding: 5px;
+    font-family: Roboto;
+    color: rgb(66, 66, 66);
+}
+
+.name{
+    font-size: 50px;
+    color: wheat;
+}
+
+.engineer{
+    color: wheat;
+}
+
+body{
+    background-color: wheat;
+}
+
+
+.asideprincipal{
+    padding: 0%;
+    margin-left:7%;
+    margin-right: 7%;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+section {
+    display: flex;
+    background-color:  white;
+  }
+
+.responsive{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px;
+}
+
+.fontbold{
+    font-weight: bold;
+}
+
+.h2ProSkil{
+    padding-top: 10px;
+    position: relative;
+    bottom: -1px;
+    background-color: white;
+}
+
+.education{
+    text-align: left;
+}
+
+.divFoto{
+    flex-wrap: wrap;
+    flex-basis: 33.33%;
+    flex-grow: 1;
+}
+
+.profilePic{
+    border: 5px solid darkgray;
+    max-width: 150px;
+    padding: 0;
+    border-radius: 0px;
+    margin-left: 150px;
+}
+
+.divDatos1{
+    flex-grow: 1;
+    flex-basis: 66.67%;
+}
+
+.icons{
+    max-width: 25px;
+    filter: grayscale(1);
+}
+
+a{
+    text-decoration: none;
+    border:none;
+}
+
+.divIcons{
+    text-align: right;
+    padding-right: 100px;
+    padding-top: 25px;
+}
+
+#sectionOne{
+    height: 200px;
+    background-image: url("pictures/fondo1.jpg");
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.div50{
+    flex-wrap: 1;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+
+.proskil{
+    padding-top: 40px;
+    padding-left: 40px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+.progressHTML {
+    width: 100%;
+    height: 10%;
+    background-color: blue;
+    transition: width 0.5s ease;
+    border-radius: 10px;
+}
+
+.progressAngular {
+    width: 70%;
+    height: 10%;
+    background-color: blue;
+    transition: width 0.5s ease;
+    border-radius: 10px;
+}
+
+.progressNodeJS {
+    width: 80%;
+    height: 10%;
+    background-color: blue;
+    transition: width 0.5s ease;
+    border-radius: 10px;
+}
+
+.progressJS {
+    width: 50%;
+    height: 10%;
+    background-color: green;
+    transition: width 0.5s ease;
+    border-radius: 10px;
+}
+
+.progressPython {
+    width: 80%;
+    height: 10%;
+    background-color: green;
+    transition: width 0.5s ease;
+    border-radius: 10px;
+}
+
+.progressJava {
+    width: 89%;
+    height: 10%;
+    background-color: green;
+    transition: width 0.5s ease;
+    border-radius: 10px;
+}
